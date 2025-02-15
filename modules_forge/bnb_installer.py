@@ -3,7 +3,7 @@ import pkg_resources
 from modules.launch_utils import run_pip
 
 target_bitsandbytes_version = '0.45.2'
-# target_bitsandbytes_version = '0.43.3' # original version
+# target_bitsandbytes_version = '0.45.2' # original version
 
 
 def try_install_bnb():
