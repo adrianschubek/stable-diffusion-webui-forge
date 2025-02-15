@@ -1,10 +1,9 @@
-@CD /D "%~dp0"
 @echo off
 
 set PYTHON=
 set GIT=
-set VENV_DIR=D:\stable-diffusion-webui-forge\.venv
-set COMMANDLINE_ARGS=--cuda-malloc --skip-google-blockly --skip-python-version-check
+set VENV_DIR=
+set COMMANDLINE_ARGS=--cuda-malloc --skip-google-blockly
 
 @REM Uncomment following code to reference an existing A1111 checkout.
 @REM set A1111_HOME=Your A1111 checkout dir

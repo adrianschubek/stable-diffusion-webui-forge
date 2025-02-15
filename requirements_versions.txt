@@ -1,7 +1,7 @@
 setuptools==69.5.1  # temp fix for compatibility with some old packages
 GitPython==3.1.32
 Pillow==9.5.0
-accelerate==0.21.0
+accelerate==0.31.0
 blendmodes==2022
 clean-fid==0.1.35
 diskcache==5.6.3
@@ -23,7 +23,7 @@ psutil==5.9.5
 pytorch_lightning==1.9.4
 resize-right==0.0.2
 safetensors==0.4.2
-scikit-image==0.21.0
+scikit-image  # was orginal + py3.11: ==0.21.0
 spandrel==0.3.4
 spandrel-extra-arches==0.1.1
 tomesd==0.1.3
